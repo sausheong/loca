@@ -1,10 +1,10 @@
 :root {
-  --primary-0: #727474b1;
-  --primary-1: #696b6bd6;
-  --secondary-0: #edefeff2;
+  --primary-0: #ea474788;
+  --primary-1: #c20f0f88;
+  --secondary-0: #ffffff00;
   --gray-0: #f8f9fa;
-  --gray-5: #adb5bd;
-  --gray-6: #868e96;
+  --gray-5: #dc3b35d4;
+  --gray-6: #ad0a0a;
   --logo-h: 3.625rem;
   --bs-secondary-color: var(--gray-5);
   --bs-font-sans-serif: Inter, sans-serif;
@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(180deg, #ececec, #ffffff);
+  background-image: linear-gradient(180deg, #f5e6e63b, #ffffff);
   background-repeat: no-repeat;
   background-size: auto 40%;
   background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-  --logo-h: 5.625rem;
+  --logo-h: 8.625rem;
   position: absolute;
   width: auto;
   top: 45%;
@@ -56,14 +56,6 @@ body {
   box-shadow: 1px 8px 18px var(--secondary-0);
 }
 
-.btn-send {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background-color: var(--gray-5);
-  border: 0;
-}
-
 .prompt-message {
   background-color: var(--secondary-0);
   border: 1px solid var(--primary-1);
@@ -80,11 +72,6 @@ body {
   border-radius: var(--bs-border-radius-lg);
   margin-bottom: 1rem;
   padding: 2rem;
-}
-
-.quote {
-  color: var(--gray-6);
-  font-size: 0.8em;
 }
 
 .prompt-input {
@@ -131,4 +118,10 @@ body {
 textarea.form-control {
   min-height: 0;
   height: 3.8rem;
+}
+
+ol {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 20px;
 }

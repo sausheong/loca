@@ -2,4 +2,4 @@ load_dotenv
 flask
 waitress
 langchain
-ctransformers==0.2.5
+llama-cpp-python
